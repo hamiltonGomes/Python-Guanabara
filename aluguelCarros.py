@@ -4,4 +4,4 @@ km = int(input("Digite o valor de KM percorridos:\n"))
 dias = int(input("Informe a quantidade de dias que utilizou o carro:\n"))
 valorTotal = (60*dias) + (0.15*km)
 
-print("O valor total a ser pago é de R${}.".format(valorTotal))
+print("O valor total a ser pago é de R${:.2f}.".format(valorTotal))
