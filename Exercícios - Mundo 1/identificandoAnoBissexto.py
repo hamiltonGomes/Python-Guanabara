@@ -1,4 +1,5 @@
-import datetime
+from Observações import datetime
+
 ano = int(input("Insira o ano que deseja descobrir se é bissexto:\n"))
 
 if ano == 0:
