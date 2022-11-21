@@ -18,3 +18,4 @@ while numero > 1:
     sequencia.append(int(numero))
 
 print(sequencia)
+
