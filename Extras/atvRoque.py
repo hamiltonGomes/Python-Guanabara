@@ -16,7 +16,7 @@ def dividir(x, y):
 
 print("Escolha uma operação:")
 print("1. Soma\n2. Subtração\n3. Multiplicação\n4. Divisão")
-choice = str(input("Resposta:\n"))
+choice = input("Resposta:\n")
 
 while choice != '1' and choice != '2' and choice != '3' and choice != '4':
     choice = str(input("Valor inserido é inválido. Por favor, digite uma opção entre 1 ao 4."))

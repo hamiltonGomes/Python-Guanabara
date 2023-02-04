@@ -1,4 +1,4 @@
-name = str(input("Digite seu nome:\n"))
+name = str(input("Digite seu nome:\n "))
 print("Nome maiúsculo:", name.upper())
 print("Nome minúsculo:", name.lower())
 print("Quantidade de letras do nome:", len(name.replace(" ", "")))
