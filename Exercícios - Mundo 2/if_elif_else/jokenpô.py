@@ -3,7 +3,7 @@ import random
 alternativas = ["Pedra", "Papel", "Tesoura"]
 escolhaPC = random.choice(alternativas).lower()
 
-print(20 * '=',"JOKENPÔ",20 * '=')
+print(20 * '=', "JOKENPÔ", 20 * '=')
 escolhaPlayer = str(input("Digite \"Pedra\",\"Papel\" ou \"Tesoura\".\n"))
 escolhaPlayer.lower()
 
