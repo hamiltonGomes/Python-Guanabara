@@ -1,4 +1,4 @@
-lista = [0]
+lista = []
 
 for i in range(0, 6):
     valorLista = int(input("Digite 1 número:\n"))
