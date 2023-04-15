@@ -48,5 +48,5 @@ while True:
     descobrirPrimalidade(numero)
     opcao = selecionarOpcao()
     if opcao == "nao":
-        print("Obrgigado.")
+        print("Obrigado por utilizar meu sistema.")
         break

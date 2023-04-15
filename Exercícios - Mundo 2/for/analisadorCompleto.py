@@ -20,6 +20,6 @@ for i in range(1, 5):
         mulheresSub20 += 1
 
 media = sum(listaIdades) / len(listaIdades)
-print(f"A soma das idades é {media}.")
+print(f"\nA soma das idades é {media}.")
 print(f"O homem mais velho se chama {nomeMaisVelho}.")
 print(f"Ao todo são {mulheresSub20} mulheres com menos de 20 anos.")
