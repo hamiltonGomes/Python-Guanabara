@@ -37,8 +37,9 @@ def addMoedas():
         print("\nCerto. Volte sempre.")
     else:
         moedaValor = float(input("Adicione o valor que deseja inserir: \n"))
-        if moedaValor not in list:
-            print("O valor inserido não é aceito, insira uma das seguintes moedas: 0.01, 0.05, 0.10 ou 0.25 centavos.")
+        while moedaValor not in list:
+            moedaValor = float(input(
+                "O valor inserido não é aceito, insira uma das seguintes moedas: 0.01, 0.05, 0.10 ou 0.25 centavos.\n"))
         else:
             creditoTotal += moedaValor
             produtos(creditoTotal)

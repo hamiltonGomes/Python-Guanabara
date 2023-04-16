@@ -1,8 +1,11 @@
-lista1 = input("Digite os valores da lista com espaço.").split()
-lista2 = []
+lista = []
+resposta = "S"
 
-for x in lista1:
-    if x not in lista2:
-        lista2.append(x)
+while resposta in "Ss":
+    termo = int(input("Adicione valores na lista: \n").strip())
+    lista.append(termo)
+    resposta = str(input("Deseja continuar? (S/N)\n")).strip()[0]
+    while resposta not in "NnSs":
+        resposta = str(input("Resposta inválida. Digite uma opção válida (S/N): \n")).strip()[0]
 
-print(lista2)
+print(set(', '.join(map(str, lista))))
