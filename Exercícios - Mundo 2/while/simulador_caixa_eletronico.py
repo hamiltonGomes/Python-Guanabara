@@ -17,6 +17,6 @@ else:
                 total_cedulas += 1
             else:
                 if total_cedulas > 0:
-                    print(f"Foram utilizadas {total_cedulas} de {cedula}.")
+                    print(f"Foram utilizadas {total_cedulas} de R$ {cedula}.")
                 total_cedulas = 0
                 break
